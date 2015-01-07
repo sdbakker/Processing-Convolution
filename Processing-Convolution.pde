@@ -1,14 +1,11 @@
 /**
- * Blur. 
- * 
- * A low-pass filter blurs an image. This program analyzes every
- * pixel in an image and blends it with the neighboring pixels
- * to blur the image. 
+ * Processing-Convolution.pde
+ *
+ * Several convolution kernels applied 'blokwise' imitating a rendering effect
+ * Remotely based on Blur and Convolute processing examples.
+ *
+ * Code is not optimised for efficient processing in any way
  */
-
-// The next line is needed if running in JavaScript Mode with Processing.js
-/* @pjs preload="moon.jpg"; */ 
-
 
 class ConvolutionFilter {
   public final static int IDENTITY = 0;
