@@ -1,2 +1,2 @@
 # Processing-Convolution
-Convolution filter with processing
+Simple render effect based on convolution filters with processing.
